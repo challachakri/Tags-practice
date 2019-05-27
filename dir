@@ -1,0 +1,5 @@
+Command to create a directory:
+ mkdir <directory-name>
+ mkdir -v <directory-name>
+ mkdir -m 777 <directory-name>
+ mkdir -p <directory-name>/<directory-name>...
