@@ -3,3 +3,11 @@ Command to create a directory:
  mkdir -v <directory-name>
  mkdir -m 777 <directory-name>
  mkdir -p <directory-name>/<directory-name>...
+
+Command to delete a directory:
+    -->Incase of empty directory
+          rmdir <directory-name>
+    -->Incase of non-empty directories
+          rm <directory-name>
+	  rm -r <directory-name>
+	  rm -rf <directory-name>
